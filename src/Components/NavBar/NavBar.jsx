@@ -3,11 +3,30 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router';
 
 const NavBar = () => {
-    const links = <>
-        <Link to="/" className='mr-3'>Home</Link>
-        <Link to="/apps" className='mr-3'>Apps</Link>
-        <Link to="/installation" className='mr-3'>Installation</Link>
-    </>
+    const links = (
+        <>
+            <Link
+                to="/"
+                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+            >
+                Home
+            </Link>
+
+            <Link
+                to="/apps"
+                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+            >
+                Apps
+            </Link>
+            <Link
+                to="/installation"
+                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+            >
+                Installation
+            </Link>
+        </>
+    );
+
 
     return (
         <div>
@@ -36,7 +55,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn" href='https://github.com/Atikur1997' target='_blank'><FaGithub />Contribute</a>
+                    <a className="btn inter text-white bg-[linear-gradient(125.07deg,_#632ee3,_#9f62f2)] " href='https://github.com/Atikur1997' target='_blank' ><FaGithub />Contribute</a>
                 </div>
             </div>
         </div>
