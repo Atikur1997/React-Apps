@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
-import { Link } from 'react-router';
+import { Link, Links } from 'react-router';
+import logo from '../../assets/logo.png';
 
 const NavBar = () => {
     const links = (
@@ -29,7 +30,7 @@ const NavBar = () => {
 
 
     return (
-        <div>
+        <div className='mb-3'>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -45,7 +46,7 @@ const NavBar = () => {
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <Link to="/"><a className="btn btn-ghost bg-transparent text-xl" ><img src={logo} className='w-[30px] h-[30px]' /> <span className='bg-[linear-gradient(125.07deg,_#632ee3,_#9f62f2)] bg-clip-text text-transparent'>HERO.IO</span></a></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
