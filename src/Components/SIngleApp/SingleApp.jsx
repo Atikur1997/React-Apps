@@ -3,8 +3,9 @@ import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa6";
 
 
-const SingleApp = ({ app }) => {
+const SingleApp = ({ app}) => {
     const { image, title, downloads, ratingAvg, companyName } = app;
+
     return (
         <div className='p-4 bg-white rounded-md cursor-pointer'>
             <img className='w-[300px] h-[350px] mx-auto rounded-2xl' src={image} />
