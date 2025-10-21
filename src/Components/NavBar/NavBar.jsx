@@ -1,36 +1,62 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
-import { Link, Links } from 'react-router';
+
 import logo from '../../assets/logo.png';
+import { Link, NavLink } from 'react-router';
 
 const NavBar = () => {
     const links = (
         <>
-            <Link
+            <NavLink
                 to="/"
-                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+                className={({ isActive }) =>
+                    `pb-1 border-b-2 transition-all duration-700 ease-in-out
+           hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]
+           hover:bg-clip-text hover:text-transparent mr-5
+           ${isActive
+                        ? "border-[#632ee3] text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]"
+                        : "border-transparent"
+                    }`
+                }
             >
                 Home
-            </Link>
+            </NavLink>
 
-            <Link
+            <NavLink
                 to="/apps"
-                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+                className={({ isActive }) =>
+                    `pb-1 border-b-2 transition-all duration-700 ease-in-out
+           hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]
+           hover:bg-clip-text hover:text-transparent mr-5 
+           ${isActive
+                        ? "border-[#632ee3] text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]"
+                        : "border-transparent"
+                    }`
+                }
             >
                 Apps
-            </Link>
-            <Link
+            </NavLink>
+
+            <NavLink
                 to="/installation"
-                className="mr-4 pb-1 border-b-2 border-transparent hover:border-[#632ee3] hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] hover:bg-clip-text hover:text-transparent transition-all duration-1000 ease-in-out"
+                className={({ isActive }) =>
+                    `pb-1 border-b-2 transition-all duration-700 ease-in-out
+           hover:bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]
+           hover:bg-clip-text hover:text-transparent
+           ${isActive
+                        ? "border-[#632ee3] text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]"
+                        : "border-transparent"
+                    }`
+                }
             >
                 Installation
-            </Link>
+            </NavLink>
         </>
     );
 
 
     return (
-        <div className='mb-3'>
+        <div >
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="navbar-start">
                     <div className="dropdown">

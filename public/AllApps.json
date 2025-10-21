@@ -1,0 +1,431 @@
+[
+    {
+        "image": "https://i.ibb.co.com/J9c3K7Np/HealthMate.png",
+        "title": "HealthMate",
+        "companyName": "WellnessPro",
+        "id": 16,
+        "description": "Track your daily health metrics, set wellness goals, and get insights for a healthier lifestyle.",
+        "size": 120,
+        "reviews": 2850,
+        "ratingAvg": 4.5,
+        "downloads": 600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 500
+            },
+            {
+                "name": "4 star",
+                "count": 950
+            },
+            {
+                "name": "5 star",
+                "count": 1180
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7nXkM8Fp/TravelPlanner.png",
+        "title": "TravelPlanner",
+        "companyName": "Wanderlust Inc",
+        "id": 17,
+        "description": "Plan trips, organize itineraries, and find local experiences with travel suggestions and maps.",
+        "size": 135,
+        "reviews": 2480,
+        "ratingAvg": 4.6,
+        "downloads": 550000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 480
+            },
+            {
+                "name": "4 star",
+                "count": 1020
+            },
+            {
+                "name": "5 star",
+                "count": 1080
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/2s4kL7Tp/FoodFinder.png",
+        "title": "FoodFinder",
+        "companyName": "YummyTech",
+        "id": 18,
+        "description": "Find restaurants nearby, read reviews, and order food with real-time tracking and offers.",
+        "size": 140,
+        "reviews": 3190,
+        "ratingAvg": 4.5,
+        "downloads": 750000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 520
+            },
+            {
+                "name": "4 star",
+                "count": 1180
+            },
+            {
+                "name": "5 star",
+                "count": 1250
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/5dLkM7Wp/MindNotes.png",
+        "title": "MindNotes",
+        "companyName": "BrainApps",
+        "id": 19,
+        "description": "Take notes, organize tasks, and create reminders with cloud sync and intuitive interface.",
+        "size": 95,
+        "reviews": 1720,
+        "ratingAvg": 4.3,
+        "downloads": 360000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 420
+            },
+            {
+                "name": "4 star",
+                "count": 730
+            },
+            {
+                "name": "5 star",
+                "count": 420
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/3xT7K8Rp/QuickLearn.png",
+        "title": "QuickLearn",
+        "companyName": "EduSmart",
+        "id": 20,
+        "description": "Learn new skills, complete quizzes, and track progress with personalized recommendations.",
+        "size": 110,
+        "reviews": 2540,
+        "ratingAvg": 4.5,
+        "downloads": 480000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 450
+            },
+            {
+                "name": "4 star",
+                "count": 1020
+            },
+            {
+                "name": "5 star",
+                "count": 900
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8yT5K7Np/PhotoWizard.png",
+        "title": "PhotoWizard",
+        "companyName": "VisualApps",
+        "id": 21,
+        "description": "Edit photos, apply AI filters, and enhance images with professional-grade tools.",
+        "size": 200,
+        "reviews": 3100,
+        "ratingAvg": 4.7,
+        "downloads": 820000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 520
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 1160
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4yT8J9Fp/MusicVibe.png",
+        "title": "MusicVibe",
+        "companyName": "SoundWave",
+        "id": 22,
+        "description": "Stream your favorite songs, create playlists, and discover trending music easily.",
+        "size": 175,
+        "reviews": 4000,
+        "ratingAvg": 4.6,
+        "downloads": 980000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 600
+            },
+            {
+                "name": "4 star",
+                "count": 1300
+            },
+            {
+                "name": "5 star",
+                "count": 1840
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7yT8K9Rp/TravelMate.png",
+        "title": "TravelMate",
+        "companyName": "GlobalTrips",
+        "id": 23,
+        "description": "Plan vacations, get local recommendations, and book experiences worldwide with ease.",
+        "size": 145,
+        "reviews": 2700,
+        "ratingAvg": 4.5,
+        "downloads": 610000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 500
+            },
+            {
+                "name": "4 star",
+                "count": 1000
+            },
+            {
+                "name": "5 star",
+                "count": 1200
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/2xT5K7Wp/FoodPlanner.png",
+        "title": "FoodPlanner",
+        "companyName": "MealTech",
+        "id": 24,
+        "description": "Organize meals, track calories, and get nutritional advice for a balanced diet.",
+        "size": 130,
+        "reviews": 1980,
+        "ratingAvg": 4.4,
+        "downloads": 450000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 420
+            },
+            {
+                "name": "4 star",
+                "count": 860
+            },
+            {
+                "name": "5 star",
+                "count": 630
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/5xT7L8Wp/SmartWallet.png",
+        "title": "SmartWallet",
+        "companyName": "FinTechLabs",
+        "id": 25,
+        "description": "Track expenses, manage budgets, and get insights for smarter financial planning.",
+        "size": 110,
+        "reviews": 2250,
+        "ratingAvg": 4.5,
+        "downloads": 540000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 110
+            },
+            {
+                "name": "3 star",
+                "count": 440
+            },
+            {
+                "name": "4 star",
+                "count": 950
+            },
+            {
+                "name": "5 star",
+                "count": 670
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/3xT7L9Rp/BookTracker.png",
+        "title": "BookTracker",
+        "companyName": "ReadSmart",
+        "id": 26,
+        "description": "Track your reading habits, join book clubs, and get personalized book suggestions.",
+        "size": 100,
+        "reviews": 1800,
+        "ratingAvg": 4.3,
+        "downloads": 370000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 570
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8xT6K8Rp/LearnMate.png",
+        "title": "LearnMate",
+        "companyName": "EduTech",
+        "id": 27,
+        "description": "Learn languages and skills online with AI-powered lessons, quizzes, and interactive exercises.",
+        "size": 125,
+        "reviews": 2400,
+        "ratingAvg": 4.6,
+        "downloads": 520000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 110
+            },
+            {
+                "name": "3 star",
+                "count": 480
+            },
+            {
+                "name": "4 star",
+                "count": 1050
+            },
+            {
+                "name": "5 star",
+                "count": 990
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7xT5K7Wp/WorkoutPal.png",
+        "title": "WorkoutPal",
+        "companyName": "FitnessHub",
+        "id": 28,
+        "description": "Get personalized workout routines, track progress, and monitor performance with smart analytics.",
+        "size": 155,
+        "reviews": 3100,
+        "ratingAvg": 4.7,
+        "downloads": 780000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 520
+            },
+            {
+                "name": "4 star",
+                "count": 1180
+            },
+            {
+                "name": "5 star",
+                "count": 1180
+            }
+        ]
+    }
+]
