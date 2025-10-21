@@ -1,6 +1,270 @@
 [
     {
-        "image": "https://i.ibb.co.com/J9c3K7Np/HealthMate.png",
+        "image": "https://i.ibb.co.com/4ng87kWK/task-master.webp",
+        "title": "TaskMaster",
+        "companyName": "EfficientWorks",
+        "id": 1,
+        "description": "Manage your daily tasks, track deadlines and collaborate with your team using intuitive tools.",
+        "size": 98,
+        "reviews": 1320,
+        "ratingAvg": 4.3,
+        "downloads": 420000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 320
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/cSgG3xns/fittrac-Pro.png",
+        "title": "FitTrack Pro",
+        "companyName": "HealthVision Ltd",
+        "id": 2,
+        "description": "Track workouts, monitor your heart rate & steps, and get AI-based fitness insights every day.",
+        "size": 142,
+        "reviews": 2890,
+        "ratingAvg": 4.6,
+        "downloads": 780000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 110
+            },
+            {
+                "name": "3 star",
+                "count": 450
+            },
+            {
+                "name": "4 star",
+                "count": 900
+            },
+            {
+                "name": "5 star",
+                "count": 1370
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/nqXyXRzq/Note-Scope.jpg",
+        "title": "NoteScape",
+        "companyName": "BrainWave Apps",
+        "id": 3,
+        "description": "A minimalist note-taking app with markdown support, cloud sync, and elegant design for writers & students.",
+        "size": 68,
+        "reviews": 1570,
+        "ratingAvg": 4.4,
+        "downloads": 330000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 680
+            },
+            {
+                "name": "5 star",
+                "count": 290
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Y77VPnqM/Travel-Buddy.png",
+        "title": "TravelBuddy",
+        "companyName": "GlobalWander Inc",
+        "id": 4,
+        "description": "Plan, book and manage your trips including flights & hotels, with smart itinerary suggestions and offline maps.",
+        "size": 126,
+        "reviews": 2420,
+        "ratingAvg": 4.5,
+        "downloads": 560000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 140
+            },
+            {
+                "name": "2 star",
+                "count": 210
+            },
+            {
+                "name": "3 star",
+                "count": 560
+            },
+            {
+                "name": "4 star",
+                "count": 950
+            },
+            {
+                "name": "5 star",
+                "count": 560
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/vCHnvzkS/Photo-Master.jpg",
+        "title": "PhotoMaster",
+        "companyName": "VisualCore Studio",
+        "id": 5,
+        "description": "Enhance and edit your photos using AI tools: blur removal, lighting correction, and artistic filters.",
+        "size": 215,
+        "reviews": 3030,
+        "ratingAvg": 4.8,
+        "downloads": 770000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 450
+            },
+            {
+                "name": "4 star",
+                "count": 1100
+            },
+            {
+                "name": "5 star",
+                "count": 1260
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/nq18syVr/Music-Flow.png",
+        "title": "MusicFlow",
+        "companyName": "EchoWorks",
+        "id": 6,
+        "description": "Stream music, create playlists, listen offline and get personalized suggestions based on mood and listening habits.",
+        "size": 178,
+        "reviews": 4510,
+        "ratingAvg": 4.7,
+        "downloads": 1020000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 640
+            },
+            {
+                "name": "4 star",
+                "count": 1320
+            },
+            {
+                "name": "5 star",
+                "count": 2250
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/FLQzM5Zq/Lang-Learn.jpg",
+        "title": "LangLearner",
+        "companyName": "Eduverse Tech",
+        "id": 7,
+        "description": "Learn a new language with conversation partners, AI-powered lessons and adaptive exercises tailored to your level.",
+        "size": 134,
+        "reviews": 3890,
+        "ratingAvg": 4.6,
+        "downloads": 640000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 430
+            },
+            {
+                "name": "4 star",
+                "count": 1070
+            },
+            {
+                "name": "5 star",
+                "count": 2160
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/rGT17PFt/budget-tracker.png",
+        "title": "BudgetTrack",
+        "companyName": "SmartFinance Ltd",
+        "id": 8,
+        "description": "Manage your expenses, track budgets, set savings goals and get smart summaries about your spending habits.",
+        "size": 105,
+        "reviews": 2100,
+        "ratingAvg": 4.2,
+        "downloads": 290000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 540
+            },
+            {
+                "name": "4 star",
+                "count": 950
+            },
+            {
+                "name": "5 star",
+                "count": 310
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4R0gN1bv/healthmate.png",
         "title": "HealthMate",
         "companyName": "WellnessPro",
         "id": 16,
@@ -33,7 +297,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/7nXkM8Fp/TravelPlanner.png",
+        "image": "https://i.ibb.co.com/1CmDv7B/travel-planer.png",
         "title": "TravelPlanner",
         "companyName": "Wanderlust Inc",
         "id": 17,
@@ -66,7 +330,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/2s4kL7Tp/FoodFinder.png",
+        "image": "https://i.ibb.co.com/Rp3xz4GK/foodfinder.png",
         "title": "FoodFinder",
         "companyName": "YummyTech",
         "id": 18,
@@ -99,7 +363,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/5dLkM7Wp/MindNotes.png",
+        "image": "https://i.ibb.co.com/RpK0s99R/mind-Notes.jpg",
         "title": "MindNotes",
         "companyName": "BrainApps",
         "id": 19,
@@ -132,7 +396,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/3xT7K8Rp/QuickLearn.png",
+        "image": "https://i.ibb.co.com/DH72vcjt/quick-Learn.png",
         "title": "QuickLearn",
         "companyName": "EduSmart",
         "id": 20,
@@ -165,7 +429,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/8yT5K7Np/PhotoWizard.png",
+        "image": "https://i.ibb.co.com/wNzm6DYL/photowiz.jpg",
         "title": "PhotoWizard",
         "companyName": "VisualApps",
         "id": 21,
@@ -198,7 +462,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/4yT8J9Fp/MusicVibe.png",
+        "image": "https://i.ibb.co.com/ksvc8hFh/musicvibe.png",
         "title": "MusicVibe",
         "companyName": "SoundWave",
         "id": 22,
@@ -231,7 +495,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/7yT8K9Rp/TravelMate.png",
+        "image": "https://i.ibb.co.com/vfvhgsk/travelmate.jpg",
         "title": "TravelMate",
         "companyName": "GlobalTrips",
         "id": 23,
@@ -264,7 +528,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/2xT5K7Wp/FoodPlanner.png",
+        "image": "https://i.ibb.co.com/d41jt6jJ/Food-planer.jpg",
         "title": "FoodPlanner",
         "companyName": "MealTech",
         "id": 24,
@@ -297,7 +561,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/5xT7L8Wp/SmartWallet.png",
+        "image": "https://i.ibb.co.com/sYXGCBn/smart-wallet.png",
         "title": "SmartWallet",
         "companyName": "FinTechLabs",
         "id": 25,
@@ -330,7 +594,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/3xT7L9Rp/BookTracker.png",
+        "image": "https://i.ibb.co.com/KcsgY4ST/book-Tracker.png",
         "title": "BookTracker",
         "companyName": "ReadSmart",
         "id": 26,
@@ -363,7 +627,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/8xT6K8Rp/LearnMate.png",
+        "image": "https://i.ibb.co.com/FbxHJ84j/learnmate.webp",
         "title": "LearnMate",
         "companyName": "EduTech",
         "id": 27,
@@ -396,7 +660,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/7xT5K7Wp/WorkoutPal.png",
+        "image": "https://i.ibb.co.com/WvMKy9kC/workout.png",
         "title": "WorkoutPal",
         "companyName": "FitnessHub",
         "id": 28,

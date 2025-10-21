@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router";
 import Root from '../Pages/Root/Root';
 import Errorpage from '../Pages/ErrorPage/Errorpage';
 import Home from '../Home/Home';
+import Apps from '../Pages/Apps/Apps';
 
 export const router = createBrowserRouter([
     {
@@ -12,10 +13,14 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                loader: () => fetch('/HomeApp.json'),
                 path: '/',
                 Component: Home,
-
             },
+            {
+                path: '/apps',
+                Component: Apps,
+            }
         ]
     },
 ]);

@@ -72,7 +72,7 @@ const NavBar = () => {
 
                         </ul>
                     </div>
-                    <Link to="/"><a className="btn btn-ghost bg-transparent text-xl" ><img src={logo} className='w-[30px] h-[30px]' /> <span className='bg-[linear-gradient(125.07deg,_#632ee3,_#9f62f2)] bg-clip-text text-transparent'>HERO.IO</span></a></Link>
+                    <Link to="/" className='flex gap-2'><img src={logo} className='w-[30px] h-[30px]' /> <span className='bg-[linear-gradient(125.07deg,_#632ee3,_#9f62f2)] bg-clip-text text-transparent'>HERO.IO</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

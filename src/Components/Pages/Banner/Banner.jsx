@@ -6,17 +6,17 @@ import hero from '../../../assets/hero.png'
 
 const Banner = () => {
     return (
-        <div className='bg-[#f7f7f7] py-7'>
+        <div className='bg-[#f7f7f7] pt-7'>
             <div className='text-center'>
                 <h1 className='inter text-center text-4xl font-semibold'>We Build <br /><span className='bg-clip-text bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent'>Productive</span> Apps</h1>
                 <p className='w-[54%] mx-auto inter my-3 text-[#627382]'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
             <div className='flex flex-col md:flex-row items-center md:justify-center gap-2 mb-10'>
                 <div className='w-[200px]'>
-                    <button className='btn flex inter font-semibold  w-full  md:justify-around'><img src={playStore} /> Google play</button>
+                    <a href="https://play.google.com/store/games?device=windows" target='_blank'><button className='btn flex inter font-semibold  w-full  md:justify-around'><img src={playStore} /> Google play</button></a>
                 </div>
                 <div className='w-[200px]'>
-                    <button className='btn flex inter font-semibold  w-full  md:justify-around'><img src={appStore} /> App Store</button>
+                    <a href="https://www.apple.com/app-store/" target='_blank'><button className='btn flex inter font-semibold  w-full  md:justify-around'><img src={appStore} /> App Store</button></a>
                 </div>
             </div>
             <div >
