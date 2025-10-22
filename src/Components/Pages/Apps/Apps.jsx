@@ -1,18 +1,49 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../../SIngleApp/SingleApp';
 
 const Apps = () => {
     const AppData = useLoaderData();
     const [searchItem, setSearchItem] = useState('');
+    const [loading, setLoading] = useState(true); // for page load
+    const [searchLoading, setSearchLoading] = useState(false); // for search delay
 
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 1000); // 1 second loading delay for first render
+        return () => clearTimeout(timer);
+    }, []);
+
+
+    const handleSearchChange = (e) => {
+        const value = e.target.value;
+        setSearchItem(value);
+        setSearchLoading(true);
+
+        setTimeout(() => {
+            setSearchLoading(false);
+        }, 600);
+    };
 
     const filteredApps = AppData.filter(app =>
         app.title.toLowerCase().includes(searchItem.toLowerCase())
     );
 
+
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center h-screen bg-[#f7f7f7]">
+                <span className='text-4xl text-gray-300 inter font-extrabold mr-2'>L </span>
+                <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-green-500"></div>
+                <span className='text-4xl  text-gray-300 inter font-extrabold ml-1'> a d i n g P a g e....</span>
+            </div>
+        );
+    }
+
     return (
-        <div className="bg-[#f7f7f7] py-5">
+        <div className="bg-[#f7f7f7] py-5 min-h-screen">
             <div>
                 <h1 className="text-4xl inter font-bold text-center mt-7">
                     Our All Applications
@@ -27,7 +58,7 @@ const Apps = () => {
                     ({filteredApps.length}) Apps Found
                 </p>
 
-                <label className="input">
+                <label className="input flex items-center gap-2 border border-gray-300 rounded-lg p-2 bg-white">
                     <svg
                         className="h-[1em] opacity-50"
                         xmlns="http://www.w3.org/2000/svg"
@@ -49,14 +80,21 @@ const Apps = () => {
                         required
                         placeholder="Search apps..."
                         value={searchItem}
-                        onChange={(e) => setSearchItem(e.target.value)}
+                        onChange={handleSearchChange}
+                        className="outline-none w-full"
                     />
                 </label>
             </div>
 
 
-            {filteredApps.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+            {searchLoading ? (
+                <div className="flex justify-center items-center mt-20">
+                    <span className='text-3xl text-gray-300 inter font-extrabold mr-2.5'>L</span>
+                    <div className="animate-spin rounded-full h-14 w-14 border-t-4 border-b-4 border-blue-500"></div>
+                    <span className='text-3xl text-gray-300 inter font-extrabold ml-1'>a d i n g A p p s ....</span>
+                </div>
+            ) : filteredApps.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-3 px-4">
                     {filteredApps.map((app) => (
                         <SingleApp key={app.id} app={app} />
                     ))}
