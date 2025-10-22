@@ -7,11 +7,11 @@ const InstalledAppsList = ({ app, onUninstall }) => {
 
     const handleUninstall = () => {
         removeFromStoredDB(id);
-        onUninstall(); // Refresh the list in parent (Installation.jsx)
+        onUninstall();
     };
 
     return (
-        <div className="flex justify-between my-4 py-4 shadow-md items-center px-4">
+        <div className="flex flex-col md:flex-row gap-4 justify-between my-4 py-4 shadow-md items-center px-4">
             <div className="flex justify-space gap-4">
                 <div>
                     <img className="w-[80px] h-[80px] rounded-md" src={image} />
@@ -32,7 +32,7 @@ const InstalledAppsList = ({ app, onUninstall }) => {
                 </div>
             </div>
             <div>
-                <button onClick={handleUninstall} className="btn btn-error text-white">
+                <button onClick={handleUninstall} className="btn btn-success inter text-white w-[300px] md:w-auto">
                     Uninstall
                 </button>
             </div>
